@@ -12,4 +12,7 @@ fun main(){
 
     var myintvariable : Int = 323
     println(myintvariable)
+
+    var b : Float = 34.3f
+    println(b)
 }
