@@ -1,5 +1,8 @@
 
 
+import kotlin.repeat
+
+
 
 
 
@@ -31,4 +34,19 @@ fun mult(a : Int , b: Int): Int{     //return type function
      val c = aa*bb
     return c
 }
+
+
+// *** ways to do one functino ***//
+
+fun sq(number : Int): Int {
+   return number * number
+}
+
+
+fun sq2(number : Int) : Int = number * number
+
+
+
+fun sq3(number : Int ) = number*number
+
 
